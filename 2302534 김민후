@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Center the word "resume" */
+        .resume {
+            font-size: 36px; /* adjust the font size as desired */
+            text-align: center;
+            margin-top: 50px; /* adjust the margin-top as desired */
+            color:black
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <h1>이력서</h1>
+    </div>
+</body>
+
+
+
+
+</body>
+<style>
+    body  {
+        background-image: url(https://kkoma.net/web/product/big/201805/4781_shop1_15271321247509.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 400px;
+    }
+   
+</style>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* Center the word "resume" */
+        .resume {
+            font-size: 36px; /* adjust the font size as desired */
+            text-align: center;
+            margin-top: 50px; /* adjust the margin-top as desired */
+        }
+   
+        /* Center the list items horizontally */
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+        }
+   
+        /* Add margin and cursor pointer to list items */
+        li {
+            margin: 0 10px;
+            cursor: pointer;
+        }
+    </style>
+    <ul>
+        <a href="#table1"> 신상</a>
+        <a href="#table2"> 학력</a>
+        <a href="#table3"> 경력</a>
+        <a href="#table4"> 수상</a>
+       
+    </ul>
+   
+    <title>2302534 김민후</title>
+   
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+       
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+       
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+            border: 2px solid #f13c3c;
+        }
+       
+        th {
+            background-color: #fdd3d3;
+        }
+       
+        th:first-child,
+        td:first-child {
+            width: 30%;
+        }
+       
+        th:nth-child(2),
+        td:nth-child(2) {
+            width: 20%;
+        }
+       
+        th:nth-child(3),
+        td:nth-child(3) {
+            width: 30%;
+        }
+       
+        th:last-child,
+        td:last-child {
+            width: 20%;
+        }
+       
+        #table1 {
+            background-color: #ffcccc; /* Color for table1 */
+        }
+       
+        #table2 {
+            background-color: #dbffdb; /* Color for table2 */
+        }
+       
+        #table3 {
+            background-color: #fad9fa; /* Color for table3 */
+        }
+       
+        #table4 {
+            background-color: #cae5fe; /* Color for table4 */
+        }
+       
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+       
+        ul li {
+            display: inline;
+            padding: 10px;
+            cursor: pointer;
+        }
+       
+        ul li:hover {
+            background-color: #ffffff;
+        }
+       
+        h1:hover {
+            color: red;
+        }
+       
+        h1:active {
+            color: blue;
+        }
+        body {
+            background-color : rgb(255, 244, 244);
+        }
+       
+    </style>
+</head>
+<body>
+    <img src="C:\Users\백예슬\Desktop\김민후\고라파덕.jpg" alt="고라파덕" width="150">
+</body>
+
+
+
+
+<body>
+    <style>
+        h1{ 
+            font-family: 'Helvetica', sans-serif; 
+            color:#36698d
+        }
+        h2{ 
+            font-family: 'Times New Roman', serif; 
+            color:#136113
+        }
+        h3{ 
+            font-family: 'Courier New', monospace; 
+            color:#905191
+        }
+    </style>
+    <div id="table1">
+        <h1>신상</h1>
+        <table>
+            <tr>
+                <th>이름</th>
+                <td>김민후</td>
+                <th>한자</th>
+                <td>金珉厚</td>
+            </tr>
+            <tr>
+                <th>영문</th>
+                <td>KIMMINHOO</td>
+                <th>나이</th>
+                <td>20세( 만 19세 )</td>
+            </tr>
+            <tr>
+                <th>성별</th>
+                <td>여</td>
+                <th>전화번호</th>
+                <td>010-8653-9061</td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+
+
+
+
+<body>
+    <div id="table2">
+        <h2>학력</h2>
+        <table>
+            <tr>
+                <th>학교</th>
+                <td>한양여자대학교</td>
+                <th>전공</th>
+                <td>빅데이터</td>
+            </tr>
+            <tr>
+                <th>기간</th>
+                <td>2023년 - 2025년</td>
+                <th>학점</th>
+                <td>4.5 / 4.5</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+<body>
+    <div id="table3">
+        <h3>경력</h3>
+        <table>
+            <tr>
+                <th>회사</th>
+                <td>삼성전자</td>
+                <th>직급</th>
+                <td>개발자</td>
+            </tr>
+            <tr>
+                <th>기간</th>
+                <td>2026년 ~</td>
+                <th>담당 업무</th>
+                <td>웹 애플리케이션 개발</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+<body>
+    <div id="table4">
+        <h4>수상</h4>
+        <table>
+            <tr>
+                <th>수상명</th>
+                <td>예스벨상</td>
+                <th>수상일자</th>
+                <td>2023년 9월 12일</td>
+            </tr>
+            <tr>
+                <th>수상 내역</th>
+                <td colspan="3">웹 애플리케이션 개발 분야에서 우수한 성과를 인정받아 수상</td>
+            </tr>
+            <tr>
+                <th>수상명</th>
+                <td>빽스치노 소믈리에 상</td>
+                <th>수상일자</th>
+                <td>2004년 03월 05일</td>
+            </tr>
+            <tr>
+                <th>수상 내역</th>
+                <td colspan="3">전세계에 있는 빽스치노를 맛보고, 널리 전파하는데 큰 기여를 함</td>
+            </tr>
+            <tr>
+                <th>수상명</th>
+                <td>헐크상</td>
+                <th>수상일자</th>
+                <td>1800년 10월 12일</td>
+            </tr>
+            <tr>
+                <th>수상 내역</th>
+                <td colspan="3">각종 물건을 파괴하고, 제거하는데 큰 기여를 함</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<body>
+    <audio src="C:\Users\백예슬\Desktop\김민후\안녕하세요.m4a" controls="controls"></audio>
+</body>
+<body>
+    <video controls="controls"
+        <source src="C:\Users\백예슬\Desktop\김민후\코코 비닐봉지.mp4" type="video/mp4">
+    </video>
+</body>
+
+
+
+
+<head>
+    <meta charset="utf-8">
+    <title>회원 가입 페이지</title>
+  </head>
+  <body>
+    <h1>회원 가입</h1>
+    <form>
+      <label>이름</label>
+      <input type="text" name="name" required><br><br>
+ 
+      <label>사진</label>
+      <input type="file" name="photo" accept="image/*" required><br><br>
+ 
+      <label>성별</label>
+      <input type="radio" name="gender" value="male">남
+      <input type="radio" name="gender" value="female" checked>여<br><br>
+   
+      <label>생년월일 (양력)</label>
+      <input type="date" name="birthday_gregorian" required><br><br>
+ 
+      <label>생년월일 (음력)</label>
+      <input type="date" name="birthday_lunar"><br><br>
+ 
+      <label>나이</label>
+      <input type="number" name="age" required><br><br>
+ 
+      <label>주소</label>
+      <input type="text" name="address" required><br><br>
+ 
+ 
+      <label>가입 이유</label>
+      <select name="reason">
+        <option value="1">서비스 이용을 위해</option>
+        <option value="2">광고 및 마케팅 수신을 위해</option>
+        <option value="3">기타</option>
+      </select><br><br>
+ 
+      <label for="captcha">로봇방지:</label>
+      <input type="text" placeholder="보안문자 입력" /><br><br>
+ 
+      <input type="submit" value="가입">
+    </form>
+    <style>
+        input { background-color: #f0d5d5;}
+        input { cursor: zoom-in; }
+      </style>
+   
+    </body>
+  </html>
+  2302534 김민후
+  
