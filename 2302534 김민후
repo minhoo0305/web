@@ -13,6 +13,7 @@
     </style>
 </head>
 <body>
+    <div id="left-column">
     <div class="resume">
         <h1>이력서</h1>
     </div>
@@ -26,7 +27,7 @@
     body  {
         background-image: url(https://kkoma.net/web/product/big/201805/4781_shop1_15271321247509.jpg);
         background-repeat: no-repeat;
-        background-size: 100% 400px;
+        background-size: 50% 400px;
     }
    
 </style>
@@ -46,6 +47,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        body {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #left-column {
+            width: 50%;
+        }
+
+        #right-column {
+            width: 50%;
+        }
+    </style>
+ <body>
+
     <style>
         /* Center the word "resume" */
         .resume {
@@ -68,6 +85,7 @@
             cursor: pointer;
         }
     </style>
+    <body>
     <ul>
         <a href="#table1"> 신상</a>
         <a href="#table2"> 학력</a>
@@ -75,7 +93,7 @@
         <a href="#table4"> 수상</a>
        
     </ul>
-   
+    </body>
     <title>2302534 김민후</title>
    
     <style>
@@ -270,10 +288,10 @@
 
 
 
-<body>
-    <div id="table4">
-        <h4>수상</h4>
-        <table>
+    <body>
+        <div id="table4">
+            <h4>수상</h4>
+            <table>
             <tr>
                 <th>수상명</th>
                 <td>예스벨상</td>
@@ -304,27 +322,44 @@
                 <th>수상 내역</th>
                 <td colspan="3">각종 물건을 파괴하고, 제거하는데 큰 기여를 함</td>
             </tr>
-        </table>
-    </div>
+            </table>
+        </div>
+    </body>
+    <body>
+        <audio src="C:\Users\백예슬\Desktop\김민후\안녕하세요.m4a" controls="controls">
+            
+        </audio>
+    </body>
+    <body>
+        <video controls="controls"
+            <source src="C:\Users\백예슬\Desktop\김민후\코코 비닐봉지.mp4" type="video/mp4">
+        </video>
+    </body>
 </body>
-<body>
-    <audio src="C:\Users\백예슬\Desktop\김민후\안녕하세요.m4a" controls="controls"></audio>
-</body>
-<body>
-    <video controls="controls"
-        <source src="C:\Users\백예슬\Desktop\김민후\코코 비닐봉지.mp4" type="video/mp4">
-    </video>
-</body>
-
-
+</div>
 
 
 <head>
+    <div id="right-column">
+        <form action="/signup" method="post">
     <meta charset="utf-8">
+    
     <title>회원 가입 페이지</title>
   </head>
   <body>
+    <style>
+        /* Center the word "resume" */
+        .resume {
+            font-size: 36px; /* adjust the font size as desired */
+            text-align: center;
+            margin-top: 50px; /* adjust the margin-top as desired */
+            color:black
+        }
+        
+    </style>
+    <div class="resume">
     <h1>회원 가입</h1>
+    </div>
     <form>
       <label>이름</label>
       <input type="text" name="name" required><br><br>
@@ -365,8 +400,9 @@
         input { background-color: #f0d5d5;}
         input { cursor: zoom-in; }
       </style>
-   
     </body>
+</div>
   </html>
-  2302534 김민후
+  
+  
   
